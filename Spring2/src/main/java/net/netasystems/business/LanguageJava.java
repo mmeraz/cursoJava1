@@ -14,7 +14,12 @@ public class LanguageJava implements Language {
 
 	public String description() {
 		
-		return "Java rules dad!!";
+		return "Java rules dad!! ";
+	}
+
+	public String version() {
+		// TODO Auto-generated method stub
+		return " Version 1.7";
 	}
 
 }

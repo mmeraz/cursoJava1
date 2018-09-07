@@ -10,6 +10,7 @@ public class MasterProgrammer implements Programmer {
 	@Autowired
 	@Qualifier(value="languageJava")
 	private Language language;
+
 	
 	
 	
@@ -36,7 +37,7 @@ public class MasterProgrammer implements Programmer {
 
 	public String hackTheWorld() {
 	
-		return "Program in: " +  language.description();
+		return "Program in: " +  language.description()+language.version();
 	}
 
 }

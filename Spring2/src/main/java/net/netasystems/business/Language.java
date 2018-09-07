@@ -15,5 +15,6 @@ public interface Language {
 	 * @return Tipo String
 	 */
 	String description();
+	String version();
 
 }

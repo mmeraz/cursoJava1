@@ -12,7 +12,12 @@ import org.springframework.stereotype.Component;
 public class LanguagePearl implements Language {
 
 	public String description() {
-		return "The best programming language perl";
+		return "The best programming language perl ";
+	}
+
+	public String version() {
+		// TODO Auto-generated method stub
+		return " Version 1.9";
 	}
 
 }

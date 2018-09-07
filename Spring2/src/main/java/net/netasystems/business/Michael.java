@@ -42,7 +42,7 @@ public class Michael implements Programmer {
 
 	public String hackTheWorld() {
 		// TODO Auto-generated method stub
-		return "Program in: "+ language.description();
+		return "Program in: "+ language.description()+language.version();
 	}
 	
 	
